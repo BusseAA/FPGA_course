@@ -1,0 +1,77 @@
+# Generated build directories
+**/build/
+
+# Icarus Verilog and waveform output
+*.vvp
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+
+# ModelSim
+**/work/
+transcript
+vsim.wlf
+wlft*
+modelsim.ini
+
+# Quartus generated databases and output
+**/db/
+**/incremental_db/
+**/output_files/
+**/.qsys_edit/
+*.qsf
+*.qpf
+*.mpf
+*.qws
+*.qdf
+*.qmsg
+*.smsg
+*.rpt
+*.summary
+*.jdi
+*.pin
+*.sld
+*.sof
+*.pof
+*.jic
+*.rbf
+*.jam
+*.jbc
+*.done
+*.eqn
+c5_pin_model_dump.txt
+
+# Presentation temporary files (PPTX and PDF deliverables remain trackable)
+~$*.pptx
+
+# Generic logs and tool output
+*.log
+*.out
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+*.orig
