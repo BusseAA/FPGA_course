@@ -13,7 +13,7 @@ module led_blink(
 		    cnt <= cnt + 1;
         end
 	end
-
+    
     wire clk_en;
     assign clk_en = cnt==PERIOD-1;
 
